@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI virtual assistant that answers your calls | Clinic Consulting Services</title>
+<meta name="description" content="Free 14-day pilot: an AI virtual assistant answers your business's inbound calls when your team can't.">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#ffffff">
+<link rel="alternate" hreflang="es" href="index.html">
+<style>
+:root{--ink:#0b0d10;--ink2:#3a4048;--mute:#6b7280;--line:#e6e8eb;--bg:#fff;--soft:#f5f5f7;--accent:#0a84a8;--accent2:#086a88;--dark:#0b0d10}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Inter","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.narrow{max-width:820px}
+.nw{white-space:nowrap}
+/* barra superior */
+.bar{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(18px);-webkit-backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid rgba(0,0,0,.06)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:10px}
+.brand{font-weight:600;font-size:15px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar nav{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.lang{font-size:13px;color:var(--ink2);text-decoration:none;padding:6px 10px;border-radius:999px}
+.lang:hover{background:rgba(0,0,0,.05)}
+/* botones */
+.pill{display:inline-block;border-radius:999px;font-weight:600;text-decoration:none;transition:transform .2s ease,background .2s ease}
+.pill:hover{transform:translateY(-1px)}
+.pill-sm{background:var(--ink);color:#fff;font-size:13px;padding:7px 14px}
+.pill-lg{background:var(--accent);color:#fff;font-size:17px;padding:15px 30px}
+.pill-lg:hover{background:var(--accent2)}
+.pill-light{background:#fff;color:var(--ink)}
+.pill-light:hover{background:#eef6f9}
+/* hero */
+.hero{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#1b1610}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% center}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,10,14,.82) 0%,rgba(8,10,14,.55) 45%,rgba(8,10,14,.08) 82%),linear-gradient(0deg,rgba(8,10,14,.55) 0%,rgba(8,10,14,0) 45%)}
+.hero .wrap{position:relative;z-index:1;padding-top:120px;padding-bottom:84px;width:100%}
+.hero h1{font-size:clamp(38px,6.4vw,76px);line-height:1.04;letter-spacing:-.035em;font-weight:700;margin:0 0 22px;max-width:13ch}
+.hero .lead{font-size:clamp(18px,2vw,22px);line-height:1.5;color:rgba(255,255,255,.88);max-width:30em;margin:0 0 32px;text-shadow:0 1px 12px rgba(0,0,0,.35)}
+.hero .note{color:rgba(255,255,255,.7);font-size:14px;margin-top:14px}
+/* secciones */
+section{padding:clamp(80px,11vw,140px) 0}
+.eyebrow{display:block;font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+h2{font-size:clamp(32px,4.6vw,56px);line-height:1.08;letter-spacing:-.03em;font-weight:700;margin:0 0 40px;max-width:18ch}
+h3{font-size:21px;letter-spacing:-.015em;line-height:1.25;margin:0 0 10px}
+.note{font-size:15px;color:var(--mute)}
+.light{background:var(--bg)}
+.soft{background:var(--soft)}
+.dark{background:var(--dark);color:#f5f5f7}
+.dark .eyebrow{color:#5fd3f0}
+.dark .note{color:#a1a1aa}
+/* qué hace */
+.features{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--line)}
+.features li{padding:22px 0 22px 46px;position:relative;border-bottom:1px solid var(--line);font-size:18px;color:var(--ink2)}
+.features li:before{content:"";position:absolute;left:0;top:23px;width:26px;height:26px;border-radius:50%;background:#e3f4f9 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%230a84a8' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat}
+/* piloto */
+.band{position:relative;margin:0 0 clamp(56px,7vw,90px);border-radius:28px;overflow:hidden;aspect-ratio:16/6;background:#05070a}
+.band img{width:100%;height:100%;object-fit:cover}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:16px;counter-reset:s}
+.steps li{counter-increment:s;background:#16181d;border:1px solid #23262d;border-radius:22px;padding:26px 26px 26px 84px;position:relative;color:#c7c9d1;font-size:17px}
+.steps li:before{content:counter(s);position:absolute;left:24px;top:22px;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#2bc4e6,#e8825f);color:#05070a;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:17px}
+.steps strong{color:#fff;display:block;font-size:19px;margin-bottom:4px;letter-spacing:-.01em}
+.dark .after{margin-top:28px}
+/* casos */
+.cards{display:grid;grid-template-columns:1fr;gap:22px}
+.card{background:#fff;border-radius:26px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.04),0 12px 40px rgba(0,0,0,.06);display:flex;flex-direction:column}
+.card .ph{aspect-ratio:4/3;overflow:hidden;background:#e9e4dc}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.card:hover .ph img{transform:scale(1.04)}
+.card .body{padding:26px 26px 30px}
+.card p{margin:0 0 12px;font-size:16px;color:var(--ink2)}
+.card .ex{font-size:16px;color:var(--ink);background:var(--soft);border-radius:14px;padding:14px 16px}
+.card .no{font-size:15px;color:var(--mute);margin:0}
+/* privacidad */
+.safe{display:grid;grid-template-columns:1fr;gap:28px;align-items:start}
+.shield{width:64px;height:64px;border-radius:18px;background:linear-gradient(135deg,#0a84a8,#2bc4e6);display:flex;align-items:center;justify-content:center}
+.safe p{font-size:clamp(18px,1.8vw,21px);line-height:1.6;color:var(--ink2);margin:0 0 16px}
+.safe .note{font-size:15px}
+/* CTA final */
+.final{position:relative;overflow:hidden;text-align:center;color:#fff;background:#05070a}
+.final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.75}
+.final:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(5,7,10,.35),rgba(5,7,10,.85))}
+.final .wrap{position:relative;z-index:1}
+.final h2{margin:0 auto 18px;max-width:none}
+.final p{font-size:clamp(18px,2vw,21px);color:rgba(255,255,255,.85);max-width:34em;margin:0 auto 34px}
+/* pie */
+footer{background:var(--soft);color:var(--mute);font-size:13.5px;line-height:1.6}
+footer .wrap{padding-top:34px;padding-bottom:40px}
+footer strong{color:var(--ink)}
+footer p{margin:0 0 10px}
+footer a{color:var(--accent2)}
+/* animación */
+.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (min-width:760px){
+ .features{grid-template-columns:1fr 1fr;column-gap:48px}
+ .steps{grid-template-columns:1fr 1fr}
+ .steps li:last-child{grid-column:1/-1}
+ .cards{grid-template-columns:repeat(3,1fr)}
+ .safe{grid-template-columns:96px 1fr}
+}
+@media (max-width:759px){
+ .bar .pill-sm{display:none}
+ .hero{min-height:86vh}
+ .hero img{object-position:70% center}
+ .hero:after{background:linear-gradient(0deg,rgba(8,10,14,.88) 0%,rgba(8,10,14,.55) 55%,rgba(8,10,14,.15) 100%)}
+ .hero .wrap{padding-bottom:56px}
+ .pill-lg{display:block;text-align:center}
+ .band{aspect-ratio:16/9;border-radius:20px}
+ .steps li{padding:24px 22px 24px 76px}
+ .steps li:before{left:20px}
+}
+</style>
+<script>document.documentElement.classList.add('js');
+addEventListener('DOMContentLoaded',function(){var e=document.querySelectorAll('.reveal');
+if(!('IntersectionObserver' in window)){e.forEach(function(x){x.classList.add('in')});return}
+var o=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+e.forEach(function(x){o.observe(x)})});</script>
+</head>
+<body>
+<header class="bar"><div class="wrap">
+  <div class="brand">Clinic Consulting Services</div>
+  <nav>
+    <a class="lang" href="index.html" hreflang="es">Español</a>
+    <a class="pill pill-sm" href="https://form.jotform.com/262935827130055" target="_blank" rel="noopener">Request my free assessment</a>
+  </nav>
+</div></header>
+<main>
+<div class="hero">
+  <img src="img/hero.webp" alt="A Miami business front desk with a softly glowing phone" width="1280" height="720" fetchpriority="high">
+  <div class="wrap">
+    <h1 class="reveal">An AI virtual assistant that answers your business calls</h1>
+    <p class="lead reveal">When your team is busy or after hours, an AI virtual assistant answers, takes a message and emails you a summary. Try it free for 14 days, with no commitment.</p>
+    <div class="reveal">
+      <a class="pill pill-lg" href="https://form.jotform.com/262935827130055" target="_blank" rel="noopener">Request my free assessment</a>
+      <p class="note">No cost and no commitment. Opens a short form.</p>
+    </div>
+  </div>
+</div>
+
+<section class="light"><div class="wrap">
+  <span class="eyebrow reveal">The service</span>
+  <h2 class="reveal">What the assistant does</h2>
+  <ul class="features">
+      <li class="reveal">Answers the inbound calls you choose to forward to it: for example, when nobody picks up, when the line is busy or after hours.</li>
+      <li class="reveal">Introduces itself as your business's AI virtual assistant and says in its first sentence that the call is recorded and transcribed.</li>
+      <li class="reveal">If the caller doesn't want to be recorded, it offers another way to reach your team.</li>
+      <li class="reveal">Answers only with the information you approved, such as your hours or address.</li>
+      <li class="reveal">Takes the caller's name, phone number and reason for calling, then takes the appointment or visit request for your team to confirm, or leaves a message for someone on your team.</li>
+      <li class="reveal">Emails you a summary of each call.</li>
+      <li class="reveal">Can answer in English and Spanish. During the pilot you hear how it sounds and decide.</li>
+      <li class="reveal">If the caller would rather talk to a person, it takes a message so your team can call back. In an emergency, it tells the caller to dial 911.</li>
+  </ul>
+</div></section>
+
+<section class="dark"><div class="wrap">
+  <div class="band reveal"><img src="img/onda.webp" alt="Abstract sound wave representing a voice" width="1280" height="720" loading="lazy" decoding="async"></div>
+  <span class="eyebrow reveal">The pilot</span>
+  <h2 class="reveal">How the free 14-day pilot works</h2>
+  <ol class="steps">
+      <li class="reveal"><strong>Free assessment.</strong> Fill out the short form and we review together how calls reach your business today.</li>
+      <li class="reveal"><strong>One-page agreement.</strong> Before anything is turned on, we sign a simple agreement that explains what the assistant does and does not do.</li>
+      <li class="reveal"><strong>You approve the script.</strong> You review and approve what the assistant will say, in English and Spanish, including the opening notice.</li>
+      <li class="reveal"><strong>You decide which calls to forward.</strong> You pick the lines or hours. You can keep your voicemail as a backup.</li>
+      <li class="reveal"><strong>14-day trial.</strong> You get a summary of each call by email. At the end, you decide whether to continue. No cost and no commitment.</li>
+  </ol>
+  <p class="note after reveal">The pilot covers inbound voice calls only. The assistant does not make outbound calls or send text messages.</p>
+</div></section>
+
+<section class="soft"><div class="wrap">
+  <span class="eyebrow reveal">Use cases</span>
+  <h2 class="reveal">Examples for <span class="nw">Miami-Dade</span> businesses</h2>
+  <div class="cards">
+      <article class="card reveal">
+        <div class="ph"><img src="img/contadores.webp" alt="Accounting office desk with a phone" width="1152" height="864" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <h3>Accountants and tax preparers</h3>
+          <p>During tax season many calls come in at once, or while you are meeting with a client.</p>
+          <p class="ex">“I'd like an appointment for my tax return.” The assistant takes the name, phone number and a one-line topic, and takes the appointment request for your team to confirm, or leaves a message.</p>
+          <p class="no">It does not ask for Social Security numbers, ITINs, bank details or amounts, and it does not give tax advice.</p>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="ph"><img src="img/viajes.webp" alt="Travel agency desk with a globe and a phone" width="1152" height="864" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <h3>Travel agencies</h3>
+          <p>Questions about a destination, a ticket or your hours, while your team is helping someone in the office.</p>
+          <p class="ex">“I want to fly to Bogotá in December.” The assistant notes the request and contact details so an agent can call back.</p>
+          <p class="no">It does not ask for cards or passports, does not quote prices and does not confirm bookings.</p>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="ph"><img src="img/envios.webp" alt="Shipping agency counter with boxes and a phone" width="1152" height="864" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <h3>Shipping agencies</h3>
+          <p>Calls asking what can be shipped or your hours, while your team is receiving boxes at the counter.</p>
+          <p class="ex">“I want to send a box to Venezuela.” The assistant takes the details and the visit request for your team to confirm, or leaves a message for your team.</p>
+          <p class="no">It does not ask for cards or ID documents, and it does not give prices, delivery dates or tracking information.</p>
+        </div>
+      </article>
+  </div>
+</div></section>
+
+<section class="light"><div class="wrap narrow">
+  <div class="safe reveal">
+    <div class="shield"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l7.5 3v6c0 4.6-3.1 8.6-7.5 10-4.4-1.4-7.5-5.4-7.5-10v-6z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 12.2l2.4 2.4 4.6-5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div>
+      <span class="eyebrow">Privacy</span>
+      <h2>Sensitive data: the assistant does not ask for it</h2>
+      <p>The assistant is set up to never ask for credit or debit card numbers, passports or ID documents, Social Security numbers, ITINs or other tax data, bank accounts or health information. If a caller starts to share them, the assistant does not ask further or repeat them, and the message only notes the general topic. It also does not give legal, tax or any other advice: your team handles that.</p>
+      <p class="note">For now, the service is not available to medical offices or other healthcare providers.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="final">
+  <img src="img/onda.webp" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  <div class="wrap">
+    <h2 class="reveal">Interested in trying it?</h2>
+    <p class="reveal">Fill out the short form and we will contact you for the free assessment. No cost and no commitment.</p>
+    <div class="reveal"><a class="pill pill-lg pill-light" href="https://form.jotform.com/262935827130055" target="_blank" rel="noopener">Request my free assessment</a></div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">
+  <p><strong>A service of Clinic Consulting Services LLC</strong><br>Contact: <a href="mailto:marcos@clinicconsultingservices.com">marcos@clinicconsultingservices.com</a></p>
+  <p>The form is processed by <a href="https://www.jotform.com/privacy/" target="_blank" rel="noopener">Jotform, under its own terms and privacy policy</a>. This page uses no cookies or tracking tools.</p>
+</div></footer>
+</body>
+</html>
