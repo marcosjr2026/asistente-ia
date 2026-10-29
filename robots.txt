@@ -1,0 +1,33 @@
+# Clinic Consulting Services - Asistente virtual con IA
+# Se permite a todos los rastreadores, incluidos los de IA.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://marcosjr2026.github.io/asistente-ia/sitemap.xml

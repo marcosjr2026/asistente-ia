@@ -1,0 +1,47 @@
+# Clinic Consulting Services - Asistente virtual con IA / AI virtual assistant
+
+> Piloto gratis de 14 días: un asistente virtual de inteligencia artificial contesta las llamadas entrantes de su negocio cuando su equipo no puede.
+> Free 14-day pilot: an AI virtual assistant answers your business's inbound calls when your team can't.
+
+## Español
+
+- Servicio: Asistente virtual con inteligencia artificial que contesta las llamadas entrantes de su negocio y le manda un resumen de cada llamada por email.
+- Quién lo ofrece: Clinic Consulting Services LLC.
+- Precio del piloto: $0. Piloto gratis de 14 días, sin costo y sin compromiso.
+- Idiomas: Español e inglés.
+- Para quién: Negocios de Miami-Dade, como contadores y preparadores de impuestos, agencias de viajes y agencias de envíos. Por ahora no está disponible para consultorios médicos ni otros proveedores de salud.
+- Qué no hace: No hace llamadas salientes, no envía mensajes de texto y no pide datos sensibles como tarjetas, pasaportes, Seguro Social, ITIN, cuentas bancarias o información de salud.
+- Cómo empezar: Llene el formulario de evaluación gratuita o escriba a marcos@clinicconsultingservices.com.
+
+### Preguntas frecuentes
+- ¿Cuánto cuesta el piloto? Nada. El piloto dura 14 días y no tiene costo ni compromiso. Al terminar, usted decide si sigue o no.
+- ¿En qué idiomas atiende el asistente? En español y en inglés. Durante el piloto usted escucha cómo suena y decide.
+- ¿El asistente avisa que la llamada se graba? Sí. Se presenta como asistente virtual de inteligencia artificial de su negocio y avisa desde la primera frase que la llamada se graba y se transcribe. Si la persona no quiere que la graben, le da otra forma de comunicarse con su equipo.
+- ¿Pide datos sensibles? No. No pide tarjetas, pasaportes ni documentos de identidad, números de Seguro Social, ITIN, cuentas bancarias ni información de salud.
+- ¿Hace llamadas salientes o envía mensajes de texto? No. El piloto es solo para llamadas entrantes, por voz.
+- ¿Cómo empiezo? Llene el formulario corto de evaluación gratuita y le contactamos. También puede escribir a marcos@clinicconsultingservices.com.
+
+## English
+
+- Service: An AI virtual assistant that answers your business's inbound calls and emails you a summary of each call.
+- Provided by: Clinic Consulting Services LLC.
+- Pilot price: $0. Free 14-day pilot, with no cost and no commitment.
+- Languages: English and Spanish.
+- Who it is for: Miami-Dade businesses such as accountants and tax preparers, travel agencies and shipping agencies. For now it is not available to medical offices or other healthcare providers.
+- What it does not do: It does not make outbound calls, does not send text messages and does not ask for sensitive data such as cards, passports, Social Security numbers, ITINs, bank accounts or health information.
+- How to start: Fill out the free assessment form or email marcos@clinicconsultingservices.com.
+
+### FAQ
+- How much does the pilot cost? Nothing. The pilot lasts 14 days with no cost and no commitment. At the end, you decide whether to continue.
+- What languages does the assistant speak? English and Spanish. During the pilot you hear how it sounds and decide.
+- Does the assistant say the call is recorded? Yes. It introduces itself as your business's AI virtual assistant and says in its first sentence that the call is recorded and transcribed. If the caller doesn't want to be recorded, it offers another way to reach your team.
+- Does it ask for sensitive data? No. It does not ask for cards, passports or ID documents, Social Security numbers, ITINs, bank accounts or health information.
+- Does it make outbound calls or send text messages? No. The pilot covers inbound voice calls only.
+- How do I get started? Fill out the short free assessment form and we will contact you. You can also email marcos@clinicconsultingservices.com.
+
+## Páginas / Pages
+
+- [Español](https://marcosjr2026.github.io/asistente-ia/)
+- [English](https://marcosjr2026.github.io/asistente-ia/en.html)
+- [Formulario de evaluación gratuita (ES)](https://form.jotform.com/262935162415053)
+- [Free assessment form (EN)](https://form.jotform.com/262935827130055)
